@@ -25,8 +25,8 @@
 	curl_exec($ch);
 	curl_close($ch);
 	
-	echo "$user 注册成功，密码: $pass ,正在发表帖子";
-	shell_exec("echo 账号: $user 密码: $pass >>users.log");
+	echo "$user Reged! Pass: $pass , Posting...\r\n";
+	shell_exec("echo User: $user Pass: $pass >>users.log");
 
 	//使?上?保存的cookies再次访问
 	
@@ -45,5 +45,9 @@
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $post_string);
 	$response = curl_exec($ch);
 	curl_close($ch);
-	echo $response;
-	echo '分类:'.$post_string['forum'];
+	$response = json_decode($response,true);
+	if (!$response['error']){
+		echo '(Error):'.$response['info'];
+	}	else	{
+		echo '(OK) type: '.$post_string['forum']."\r\n";
+	}
