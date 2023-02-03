@@ -1,0 +1,49 @@
+#middle {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+}
+#middle h1 {
+    font-size: 4em;
+    margin: 0 3vw 1vh 3vw;
+    line-height: 1;
+}
+#middle p {
+    margin-top: 0;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+#middle form {
+    width: fit-content;
+    margin: auto auto;
+}
+#middle button {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.g-recaptcha {
+	display: inline-block;
+}
+
+/* Light Mode */
+body[data-light-mode=true] {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Mode */
+body[data-light-mode=false] {
+    background-color: black;
+    color: white;
+}

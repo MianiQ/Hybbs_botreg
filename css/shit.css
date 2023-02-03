@@ -1,0 +1,237 @@
+body {
+	font-family: 'Open Sans','Segoe UI','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol' ! important;
+	font-weight: 200;
+	background-color: #F1F1F1 ! important;
+	color: #f4f9ff!important;
+}
+
+#bg {
+	/**background-image: linear-gradient(135deg, rgba(43,70,82,0.5) 0%, rgba(18,30,41) 100%),url(https://api.imlazy.ink/img/);
+	background-image:url(../c1ebff.png);
+	background-size: cover;
+	background-repeat: no-repeat;**/
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -3;
+	background-color: #edf2f2;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='82' height='41' viewBox='0 0 82 41'%3E%3Cdefs%3E%3Crect stroke='%23edf2f2' stroke-width='0.21' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='2' height='2' patternUnits='userSpaceOnUse'%3E%3Cg stroke='%23edf2f2' stroke-width='0.21'%3E%3Crect fill='%23e8eded' width='1' height='1'/%3E%3Crect fill='%23edf2f2' width='1' height='1' x='1' y='1'/%3E%3Crect fill='%23e4e8e8' width='1' height='1' y='1'/%3E%3Crect fill='%23dfe3e3' width='1' height='1' x='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='b' width='5' height='11' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23dadfdf'%3E%3Cuse xlink:href='%23s' x='2' y='0'/%3E%3Cuse xlink:href='%23s' x='4' y='1'/%3E%3Cuse xlink:href='%23s' x='1' y='2'/%3E%3Cuse xlink:href='%23s' x='2' y='4'/%3E%3Cuse xlink:href='%23s' x='4' y='6'/%3E%3Cuse xlink:href='%23s' x='0' y='8'/%3E%3Cuse xlink:href='%23s' x='3' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='7' height='7' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23d5dada'%3E%3Cuse xlink:href='%23s' x='1' y='1'/%3E%3Cuse xlink:href='%23s' x='3' y='4'/%3E%3Cuse xlink:href='%23s' x='5' y='6'/%3E%3Cuse xlink:href='%23s' x='0' y='3'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='11' height='5' patternUnits='userSpaceOnUse'%3E%3Cg fill='%23edf2f2'%3E%3Cuse xlink:href='%23s' x='1' y='1'/%3E%3Cuse xlink:href='%23s' x='6' y='3'/%3E%3Cuse xlink:href='%23s' x='8' y='2'/%3E%3Cuse xlink:href='%23s' x='3' y='0'/%3E%3Cuse xlink:href='%23s' x='0' y='3'/%3E%3C/g%3E%3Cg fill='%23d1d5d5'%3E%3Cuse xlink:href='%23s' x='8' y='3'/%3E%3Cuse xlink:href='%23s' x='4' y='2'/%3E%3Cuse xlink:href='%23s' x='5' y='4'/%3E%3Cuse xlink:href='%23s' x='10' y='0'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='23' patternUnits='userSpaceOnUse'%3E%3Cg fill='%237fb7bb'%3E%3Cuse xlink:href='%23s' x='2' y='5'/%3E%3Cuse xlink:href='%23s' x='23' y='13'/%3E%3Cuse xlink:href='%23s' x='4' y='18'/%3E%3Cuse xlink:href='%23s' x='35' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='61' height='31' patternUnits='userSpaceOnUse'%3E%3Cg fill='%237fb7bb'%3E%3Cuse xlink:href='%23s' x='16' y='0'/%3E%3Cuse xlink:href='%23s' x='13' y='22'/%3E%3Cuse xlink:href='%23s' x='44' y='15'/%3E%3Cuse xlink:href='%23s' x='12' y='11'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='82' height='41'/%3E%3Crect fill='url(%23b)' width='82' height='41'/%3E%3Crect fill='url(%23c)' width='82' height='41'/%3E%3Crect fill='url(%23d)' width='82' height='41'/%3E%3Crect fill='url(%23e)' width='82' height='41'/%3E%3Crect fill='url(%23f)' width='82' height='41'/%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.logo h2 {
+	font-weight: 300;
+	font-size: 32px;
+	font-family: 'Open Sans','Segoe UI','Helvetica','Arial','sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+	margin-top: 4px;
+}
+
+.logo h4 {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.logo {
+	margin-bottom: 12px;
+	margin-top:30px;
+	text-shadow: 0 0 7px #173500;
+	background: #76afca;
+	border-radius: 25px;
+	padding-inline: 30px;
+	height: 5.5em;
+}
+
+.logo a {
+	font-weight: 300;
+    font-size: 17px;
+    color: #e4edea;
+	cursor: pointer;
+	padding: 27px;
+	text-decoration: none!important;
+}
+
+.logo a:hover {
+	color:#e7fffd;
+	background:#87a3ae;
+	transition: all 0.5s;
+}
+
+.live-frame {
+	border-left: 3em solid #76afca;
+}
+
+#dplayer {
+	width: 100%;
+	height: 512px;
+	zoom: 1.1;
+	display: none;
+}
+
+#notstart {
+	display: none;
+	text-align: center;
+	width: 100%;
+	height: 512px;
+	zoom: 1.1;
+	background: #333333;
+	color: #FFFFFF;
+}
+
+#notstart img {
+	width: 320px;
+	max-width: 100%;
+	margin-top: 64px;
+}
+
+.comments .header {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 4px;
+	display: inline-block;
+	width: 100%;
+	color: #7fa5bc;
+    border-bottom: 3px solid rgb(72 130 158);
+}
+
+.comments .header small {
+	font-weight: 400;
+}
+
+.commentdata {
+	width: 100%;
+	height: 468px;
+	border: 1px solid rgba(0,0,0,0.1);
+	background: rgba(0,0,0,0.5);
+	border-radius: 4px;
+	margin-top: 8px;
+	padding-bottom: 12px;
+	overflow-y: auto;
+}
+
+.commentinput {
+	width: 100%;
+	height: 38px;
+	background: rgb(76 136 165);
+	margin-top: 8px;
+}
+
+.commentinput .inputcontent {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	background: none;
+	outline: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: '敺株蔓��暺�' ! important;
+	border-bottom: 3px solid rgba(0,0,0,0.2);
+	transition-duration: 0.25s;
+	color: #ffffff;
+}
+
+.commentinput .inputcontent:focus, .commentinput button[class='inputcontent']:hover {
+	box-shadow:0 0 13px 0px rgb(44 61 76)
+}
+
+.msgcontent {
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 8px;
+	padding-bottom: 0px;
+}
+
+.msgcontent .headimg {
+	display: inline-block;
+	width: 32px;
+}
+
+.msgcontent .headimg img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.msgcontent .msg {
+	display: inline-block;
+}
+
+.player {
+	padding-right: 5px ! important;
+}
+
+.commentlab {
+	padding-left: 5px ! important;
+}
+
+.footer {
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	color: rgb(255 255 255 / 50%);
+	background: #76afca;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 50px;
+}
+
+.active {
+	border-left: 3px solid rgb(255, 161, 161);
+}
+
+.menu .frame {
+	width: 100%;
+	height: 45px;
+	background: #76afca;
+	border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.menu .frame p {
+	color: #FFFFFF;
+	display: inline-block;
+	line-height: 45px;
+	padding-left: 24px;
+	padding-right: 24px;
+	text-decoration: none;
+	margin: 0;
+}
+
+.menu .frame a:hover {
+	background: rgba(60,228,220, 0.2)
+}
+
+.commentlab {
+	margin-top: 5px;
+}
+
+.NekohaShizuku {
+	position: fixed;
+    width: 30em;
+    bottom: 0;
+    right: 0;
+}
+
+.livEstatus {
+	background: #ffeb00;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    vertical-align: 4%;
+    margin-right: 5px;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 768px) {
+	.player, .commentlab {
+		padding-left: 15px ! important;
+		padding-right: 15px ! important;
+	}
+	
+	.pull-right {
+		display:none;
+	}
+
+	body {
+		padding-bottom: 32px;
+	}
+}
